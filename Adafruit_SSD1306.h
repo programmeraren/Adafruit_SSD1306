@@ -60,6 +60,7 @@ typedef uint32_t PortMask;
 #define HAVE_PORTREG
 #endif
 
+/*
 /// The following "raw" color names are kept for backwards client compatability
 /// They can be disabled by predefining this macro before including the Adafruit
 /// header client code will then need to be modified to use the scoped enum
@@ -69,6 +70,8 @@ typedef uint32_t PortMask;
 #define WHITE SSD1306_WHITE     ///< Draw 'on' pixels
 #define INVERSE SSD1306_INVERSE ///< Invert pixels
 #endif
+*/
+
 /// fit into the SSD1306_ naming scheme
 #define SSD1306_BLACK 0   ///< Draw 'off' pixels
 #define SSD1306_WHITE 1   ///< Draw 'on' pixels
